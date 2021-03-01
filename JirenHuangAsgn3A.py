@@ -17,7 +17,6 @@ tables = pd.read_html('https://www.treasury.gov/resource-center/data-chart-cente
 # In[4]:
 
 
-len(tables)
 
 
 # In[9]:
@@ -30,7 +29,7 @@ df = tables[1]
 
 
 df = df.set_index('Date')
-df
+
 
 
 # In[55]:
@@ -41,8 +40,6 @@ tyr = list(df['30 yr'])
 
 # In[56]:
 
-
-tyr
 
 
 # In[45]:
@@ -68,7 +65,6 @@ for i in time:
 # In[50]:
 
 
-date
 
 
 # In[52]:
